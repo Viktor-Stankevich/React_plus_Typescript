@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -31,7 +31,29 @@ import './App.css';
 
 //________________________________________________________________________________________
 
+// LESSON #2
+// Типизация событий
 
-const App = () => <Title title="test" />
+// const App: React.FC = () => {
+
+//   const [count, setCount] = useState(0);
+
+//   const handleClick = (e: React.MouseEvent<HTMLButtonElement | HTMLAnchorElement>) => {
+//     console.log(`${e.clientX}, ${e.clientY}`)
+//     setCount((count) => count += 1)
+//   }
+
+//   return (
+//     <>
+//       <h1>{count}</h1>
+//       <button onClick={handleClick}>+1</button>
+//       <a href="#" onClick={handleClick}>Linlk</a>
+//     </>
+//   )
+
+// }
+
+
+// const App = () => <Title title="test" />
 
 export default App;
